@@ -14,7 +14,7 @@ RUN apt-get update && \
 	apt-get clean
 
 VOLUME $SQUEEZE_VOL
-EXPOSE 3483 3483/udp 9000 9090 9005
+EXPOSE 3483 3483/udp 9000 9090 9005 9005/udp
 
 COPY entrypoint.sh /entrypoint.sh
 COPY start-squeezebox.sh /start-squeezebox.sh
