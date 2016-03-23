@@ -4,7 +4,7 @@ MAINTAINER Lars Kellogg-Stedman <lars@oddbit.com>
 ENV SQUEEZE_VOL /srv/squeezebox
 ENV LANG C.UTF-8
 ENV DEBIAN_FRONTEND noninteractive
-ENV MEDIASERVER_URL=http://downloads.slimdevices.com/nightly/7.9/sc/a579c48/logitechmediaserver_7.9.0~1458287071_amd64.deb
+ENV MEDIASERVER_URL=http://downloads-origin.slimdevices.com/nightly/7.9/sc/39fd5b9/logitechmediaserver_7.9.0~1458661067_amd64.deb
 
 RUN apt-get update && \
 	apt-get -y --force-yes install curl wget faad flac lame sox && \
